@@ -2,6 +2,12 @@
 __pycache__/
 *.py[cod]
 *$py.class
+# Ignore dataset files
+plantvillage-dataset.zip
+plantvillage dataset/  # This will ignore the entire directory
+
+# Ignore Kaggle credentials
+kaggle.json
 
 # C extensions
 *.so
